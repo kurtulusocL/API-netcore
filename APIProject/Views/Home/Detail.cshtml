@@ -1,0 +1,12 @@
+﻿@model APIProject.Models.Product
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="container">
+    <div class=" row">
+        @TempData["Title"]
+        <br />
+        @Model.Name
+    </div>
+</div>
